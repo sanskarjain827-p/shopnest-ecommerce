@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ShopNest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <a href="#/" class="logo">ShopNest</a>
+    <nav>
+      <a href="#/">Shop</a>
+      <a href="#/orders" data-auth>My orders</a>
+      <a href="#/admin" data-admin>Admin</a>
+      <a href="#/cart">Cart (<span id="cartCount">0</span>)</a>
+      <a href="#/login" id="loginLink">Log in</a>
+      <a href="#" id="logoutLink" hidden>Log out</a>
+    </nav>
+  </header>
+  <main id="view"></main>
+  <script src="app.js"></script>
+</body>
+</html>
